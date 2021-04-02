@@ -7,7 +7,7 @@ module.exports = async function (context, myBlob) {
     try {
         const thumbnail = await imageThumbnail(myBlob, options);
         context.log(thumbnail);
-        context.binding.outputBlob = thumbnail;
+        context.bindings.outputBlob = thumbnail;
     } catch (err) {
         context.error(err);
     }
