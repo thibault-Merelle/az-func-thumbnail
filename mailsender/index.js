@@ -14,7 +14,7 @@ module.exports = async function (context, myBlob) {
     from: process.env.GMAIL_ADDRESS,
     to: process.env.GMAIL_DEST,
     subject: 'funcion thumbnail run once',
-    text: 'Nouveau thumbnail dans la bibliothèque Azure'
+    text: `Nouveau thumbnail dans la bibliothèque Azure,\n ${context.bindingData.blobTrigger}`
     };
 
     transporter.sendMail(mailOptions, function(error, info){
