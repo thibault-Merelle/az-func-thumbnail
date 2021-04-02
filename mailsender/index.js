@@ -5,14 +5,14 @@ module.exports = async function (context, myBlob) {
     const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'dupondj587@gmail.com',
+        user: process.env.GMAIL_ADDRESS,
         pass: process.env.GMAIL_PASSWORD 
     }
     });
 
     const mailOptions = {
-    from: 'dupondj587@gmail.com',
-    to: 'test.receptionflask@gmail.com',
+    from: process.env.GMAIL_ADDRESS,
+    to: process.env.GMAIL_DEST,
     subject: 'funcion thumbnail run once',
     text: 'Nouveau thumbnail dans la bibliothèque Azure'
     };
