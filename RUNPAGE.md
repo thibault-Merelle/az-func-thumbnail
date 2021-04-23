@@ -18,13 +18,13 @@ filename: RUNPAGE.md
 2. Create a storage account and containers :
 
 storage account :
-![alt text](https://github.com/thibault-Merelle/az-func-thumbnail.git/images/CE-createSA.png)
+![alt text](./images/CE-createSA.png)
 
 
 containers 2 with blob access:
 - images => inputs:
 - thumbnail => outputs:
-![alt text](https://github.com/thibault-Merelle/az-func-thumbnail.git/images/CE-createcontainer.png)
+![alt text](./images/CE-createcontainer.png)
 
 
 ### create azure function && links :
@@ -33,9 +33,9 @@ containers 2 with blob access:
 - in your region 
 - in your ressource groupe 
 
-![alt text](https://github.com/thibault-Merelle/az-func-thumbnail.git/images/CE-create-function.png)
+![alt text](./images/CE-create-function.png)
 
 - hosting in your storage account.
-![alt text](https://github.com/thibault-Merelle/az-func-thumbnail.git/images/CE-function-hosting.png)
+![alt text](./images/CE-function-hosting.png)
 
 
