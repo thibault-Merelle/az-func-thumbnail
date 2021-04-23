@@ -13,7 +13,7 @@ filename: RUNPAGE.md
 2. Then create a ressource groupe for your project, like :
     (all your next services will be define into it and in the same region !)
 
-![alt text](https://github.com/thibault-Merelle/az-func-thumbnail.git/images/CE-ressource-groupe.png)
+![alt text](./images/CE-ressource-groupe.png)
 
 2. Create a storage account and containers :
 
