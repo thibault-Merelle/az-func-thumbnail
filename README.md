@@ -22,3 +22,5 @@ So you have a brilliant idea! Reduce the size of the images when they are not di
 Clone this repository and then let's see the to do list in azure :
 
 Go to [run page](RUNPAGE.md)
+
+Go to [logic app page](LOGIC-APP.md)
